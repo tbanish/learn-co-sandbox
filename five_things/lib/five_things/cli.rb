@@ -1,5 +1,4 @@
 class FiveThings::CLI
-  
   def call
     FiveThings::Scraper.new.scrape_articles
     greeting
@@ -77,6 +76,4 @@ class FiveThings::CLI
       option_message
     end
   end
-
-  
 end
